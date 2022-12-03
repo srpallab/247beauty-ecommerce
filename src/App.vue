@@ -750,7 +750,7 @@
 						<div class="col-xl-6 col-lg-6">
 							<div class="payment-cart">
 								<ul>
-									<li><a href="#"><img src="./assets/images/payment/1.webp" alt=""></a></li>
+									<li><a href="#"><img src="./assets/images/banner/1.avif" alt=""></a></li>
 									<li><a href="#"><img src="./assets/images/payment/2.jpeg" alt=""></a></li>
 									<li><a href="#"><img src="./assets/images/payment/3.jpeg" alt=""></a></li>
 									<li><a href="#"><img src="./assets/images/payment/4.png" alt=""></a></li>

@@ -443,6 +443,9 @@ span.header-middle-account-icon-shoping {
     Banner Or Slider Area Css
 ==========================================
 */
+.slider-image{
+    width: 100%;
+}
 i.fa-solid.fa-chevron-left.banner-icon {
     transform: initial;
     height: 56px;
@@ -605,6 +608,9 @@ i.fa-solid.fa-chevron-right.promotional-banner-two-icon {
     Best sellers Area Css
 ==========================================
 */
+.best-seller-image img{
+    width: 100%;
+}
 .single-best-sellers {
     border: 1px solid #dddddd;
 }

@@ -1,6 +1,7 @@
 <script setup>
 	import { ref } from "vue";
 
+	// Import Swiper Vue.js components
 	import { Swiper, SwiperSlide } from "swiper/vue";
 
 	// Import Swiper styles
@@ -8,11 +9,12 @@
 
 	import "swiper/css/pagination";
 	import "swiper/css/navigation";
-
+	
 	// import required modules
-	import { Pagination, Navigation } from "swiper";
+	import { Pagination, Autoplay, Navigation } from "swiper";
 
-	const modules = ref([Pagination]);
+	const modules = ref([Pagination, Autoplay, Navigation]);
+
 </script>
 
 <template>
@@ -20,37 +22,23 @@
 		<!-- ================= Banner Area Start ================ -->
 		<section>
 			<div class="banner-area">
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100 slider-image" src="src/assets/images/banner/1.avif" alt="First slide">
-							<div class="slider-content">
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100 slider-image" src="src/assets/images/banner/2.avif"
-								alt="Second slide">
-							<div class="slider-content">
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100 slider-image" src="src/assets/images/banner/3.avif" alt="Third slide">
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						<span aria-hidden="true"><i class="fa-solid fa-chevron-left banner-icon"></i></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						<span aria-hidden="true"><i class="fa-solid fa-chevron-right banner-icon"></i></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
+				<swiper
+					:spaceBetween="30"
+					:pagination="{
+						clickable: true,
+					}"
+					:autoplay="{
+						delay: 2500,
+						disableOnInteraction: false,
+					}"
+					:navigation="true"
+					:modules="modules"
+					class="mySwiper"
+				>
+					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/1.avif" alt=""></a></swiper-slide>
+					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/2.avif" alt=""></a></swiper-slide>
+					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/3.avif" alt=""></a></swiper-slide>
+				</swiper>
 			</div>
 		</section>
 		<!-- ================= Banner Area End ================ -->
@@ -61,38 +49,10 @@
 				<div class="row">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner">
-							<div id="carouselExampleIndicatorsprpmotionalbanner" class="carousel slide"
-								data-ride="carousel">
-
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img class="d-block w-100 slider-image"
-											src="src/assets/images/promotional-banner/1.avif" alt="First slide"
-											height="230px">
-										<div class="slider-content">
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100 slider-image"
-											src="src/assets/images/promotional-banner/2.avif" alt="Second slide"
-											height="230px">
-										<div class="slider-content">
-										</div>
-									</div>
-								</div>
-								<a class="carousel-control-prev" href="#carouselExampleIndicatorsprpmotionalbanner"
-									role="button" data-slide="prev">
-									<span aria-hidden="true"><i
-											class="fa-solid fa-chevron-left promotional-banner-icon"></i></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="carousel-control-next" href="#carouselExampleIndicatorsprpmotionalbanner"
-									role="button" data-slide="next">
-									<span aria-hidden="true"><i
-											class="fa-solid fa-chevron-right promotional-banner-icon"></i></span>
-									<span class="sr-only">Next</span>
-								</a>
-							</div>
+							<swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
+								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/1.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/2.avif" alt=""></a></swiper-slide>
+							</swiper>
 						</div>
 					</div>
 				</div>
@@ -117,7 +77,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/1.avif');">
+									style="background-image: url('src/assets/images/top-brand/1.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -132,7 +92,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/2.avif');">
+									style="background-image: url('src/assets/images/top-brand/2.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -147,7 +107,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/3.avif');">
+									style="background-image: url('src/assets/images/top-brand/3.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -162,7 +122,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/4.avif');">
+									style="background-image: url('src/assets/images/top-brand/4.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -186,38 +146,10 @@
 				<div class="row">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner-two">
-							<div id="carouselExampleIndicatorsprpmotionalbannertwo" class="carousel slide"
-								data-ride="carousel">
-
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img class="d-block w-100 slider-image"
-											src="src/assets/images/promotional-banner/3.avif" alt="First slide"
-											height="100px">
-										<div class="slider-content">
-										</div>
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100 slider-image"
-											src="src/assets/images/promotional-banner/4.avif" alt="Second slide"
-											height="100px">
-										<div class="slider-content">
-										</div>
-									</div>
-								</div>
-								<a class="carousel-control-prev" href="#carouselExampleIndicatorsprpmotionalbannertwo"
-									role="button" data-slide="prev">
-									<span aria-hidden="true"><i
-											class="fa-solid fa-chevron-left promotional-banner-two-icon"></i></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="carousel-control-next" href="#carouselExampleIndicatorsprpmotionalbannertwo"
-									role="button" data-slide="next">
-									<span aria-hidden="true"><i
-											class="fa-solid fa-chevron-right promotional-banner-two-icon"></i></span>
-									<span class="sr-only">Next</span>
-								</a>
-							</div>
+							<swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
+								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/3.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/4.avif" alt=""></a></swiper-slide>
+							</swiper>
 						</div>
 					</div>
 				</div>
@@ -243,170 +175,136 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12">
-							<div class="owl-carousel best-sellers-active">
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/1.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
+							<swiper
+								:slidesPerView="4"
+								:spaceBetween="30"
+								:slidesPerGroup="1"
+								:loop="true"
+								:loopFillGroupWithBlank="true"
+								:pagination="{
+									clickable: true,
+								}"
+								:navigation="true"
+								:modules="modules"
+								class="mySwiper"
+							>
+								<swiper-slide>
+									<div class="single-best-sellers">
+										<div class="best-seller-content">
+											<div class="best-seller-image">
+												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
 											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/2.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
-											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
+											<div class="best-seller-text">
+												<div class="best-seller-title">
+													<span>Lakme Lumi Skin Cream</span>
+												</div>
+												<div class="best-seller-kg">
+													<span>30gm</span>
+												</div>
+												<div class="best-seller-rating">
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span>(50)</span>
+												</div>
+												<div class="best-seller-price">
+													<span class="best-seller-main-price">$500</span>
+													<span class="best-seller-discount-price">$700</span>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/3.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-best-sellers">
+										<div class="best-seller-content">
+											<div class="best-seller-image">
+												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
 											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/4.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
-											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
+											<div class="best-seller-text">
+												<div class="best-seller-title">
+													<span>Lakme Lumi Skin Cream</span>
+												</div>
+												<div class="best-seller-kg">
+													<span>30gm</span>
+												</div>
+												<div class="best-seller-rating">
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span>(50)</span>
+												</div>
+												<div class="best-seller-price">
+													<span class="best-seller-main-price">$500</span>
+													<span class="best-seller-discount-price">$700</span>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/5.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-best-sellers">
+										<div class="best-seller-content">
+											<div class="best-seller-image">
+												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
 											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="single-best-sellers">
-									<div class="best-seller-content">
-										<div class="best-seller-image">
-											<img src="src/assets/images/best-seller/6.avif" alt="">
-										</div>
-										<div class="best-seller-text">
-											<div class="best-seller-title">
-												<span>Lakme Lumi Skin Cream</span>
-											</div>
-											<div class="best-seller-kg">
-												<span>30gm</span>
-											</div>
-											<div class="best-seller-rating">
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span><i class="fa-solid fa-star"></i></span>
-												<span>(50)</span>
-											</div>
-											<div class="best-seller-price">
-												<span class="best-seller-main-price">$500</span>
-												<span class="best-seller-discount-price">$700</span>
+											<div class="best-seller-text">
+												<div class="best-seller-title">
+													<span>Lakme Lumi Skin Cream</span>
+												</div>
+												<div class="best-seller-kg">
+													<span>30gm</span>
+												</div>
+												<div class="best-seller-rating">
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span>(50)</span>
+												</div>
+												<div class="best-seller-price">
+													<span class="best-seller-main-price">$500</span>
+													<span class="best-seller-discount-price">$700</span>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-best-sellers">
+										<div class="best-seller-content">
+											<div class="best-seller-image">
+												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+											</div>
+											<div class="best-seller-text">
+												<div class="best-seller-title">
+													<span>Lakme Lumi Skin Cream</span>
+												</div>
+												<div class="best-seller-kg">
+													<span>30gm</span>
+												</div>
+												<div class="best-seller-rating">
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span><i class="fa-solid fa-star"></i></span>
+													<span>(50)</span>
+												</div>
+												<div class="best-seller-price">
+													<span class="best-seller-main-price">$500</span>
+													<span class="best-seller-discount-price">$700</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</swiper-slide>
+							</swiper>
 						</div>
 					</div>
 				</div>
@@ -578,29 +476,47 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12">
-							<div class="owl-carousel sponsor-logo-active">
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-6.jpg" alt="">
-								</div>
-								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-7.jpg" alt="">
-								</div>
-							</div>
+							<swiper
+								:slidesPerView="6"
+								:spaceBetween="30"
+								:slidesPerGroup="1"
+								:loop="true"
+								:loopFillGroupWithBlank="true"
+								:navigation="true"
+								:modules="modules"
+								class="mySwiper"
+							>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+									</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
+									</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
+									</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
+									</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
+									</div>
+								</swiper-slide>
+								<swiper-slide>
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+									</div>
+								</swiper-slide>
+							</swiper>
 						</div>
 					</div>
 				</div>
