@@ -1,0 +1,926 @@
+/*
+==========================================
+    Google Fonts
+==========================================
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+ body {
+    background-color: rgb(243, 243, 243);
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+/* font-family: 'Oswald', sans-serif; */
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+.separator {
+	border-top: 1px solid #f2f2f2
+}
+/*
+==========================================
+    All Heading Css
+==========================================
+*/
+.all-heading {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.all-heading h3 {
+    color: #3f414d;
+    font-size: 24px;
+    -moz-letter-spacing: normal;
+    -ms-letter-spacing: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+/*
+==========================================
+    Header Top Css
+==========================================
+*/
+.header-area {
+	min-height: 170px;
+}
+.header-top{
+	background-color: #d7537b;
+	height: 40px;
+    line-height: 40px;
+    padding: 0px;
+    position: relative;
+    z-index: 10001 !important;
+}
+.header-top-left {
+    vertical-align: middle;
+    float: left;
+    height: 40px;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    position: relative;
+	width: 100%;
+}
+.left-message {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: slide 2s infinite;
+    letter-spacing: -0.1px;
+    line-height: 40px;
+    border: 0px !important;
+}
+.left-message a {
+    color: #ffffff;
+    text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+}
+.header-top-right ul {
+    float: right;
+}
+.header-top-right ul li {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 13px;
+}
+.header-top-right ul li:last-child {
+    padding: 0 0px;
+}
+.header-top-right ul li a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+span.header-top-right-icon {
+    font-size: 14px;
+    float: left;
+    margin-right: 3px;
+    color: #fff;
+}
+span.header-top-right-text {
+    margin-left: 2px;
+}
+.header-top-right ul li a:hover{
+	color: #ffffff;
+	border-color: #ffffff;
+}
+/*
+==========================================
+    Header Middle Css
+==========================================
+*/
+.header-middle-logo img {
+    width: 100%;
+    height: 85px;
+}
+
+/* header middle menu css */
+.header-middle-area {
+    border-top: 1px solid #ddd;
+}
+.header-middle-main-menu ul li {
+  display: inline-block;
+  margin-right: 45px;
+  position: relative;
+}
+.header-middle-main-menu ul li a {
+  color: #222222;
+  display: block;
+  font-size: 14px;
+  padding: 32px 0;
+  text-transform: uppercase;
+}
+.header-middle-main-menu ul li:hover > a{color:#d7537b}
+
+/* mega menu */
+.header-middle-main-menu ul li .header-middle-mega-menu {
+    background: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 8px 15px;
+    position: absolute;
+    top: 110%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+.header-middle-main-menu ul li:hover .header-middle-mega-menu{opacity:1;visibility:visible;top:100%}
+.header-middle-main-menu ul li .header-middle-mega-menu ul {
+  float: left;
+  padding-right: 10px;
+  width: 33.33%;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul:last-child{padding-right:0}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li {
+  display: block;
+  margin: 0;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li a {
+  color:rgba(3, 2, 26, 0.5);
+  text-transform: capitalize;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li a:hover {
+  color: #d7537b;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li.header-middle-mega-title a {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #d7537b;
+    text-align: center;
+    padding: 6px 0px;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu ul li.header-middle-mega-title a:hover {
+    background-color: #000000;
+}
+.header-middle-main-menu ul li.header-middle-static{position:static;}
+.header-middle-static{position:static;}
+.header-middle-pos{position:relative;}
+
+.header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full {
+    width: 100%;
+    z-index: 2;
+    border: 1px solid #dddddd;
+}
+.header-middle-main-menu ul li .header-middle-mega-menu.header-middle-mega-full ul{width:25%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header middle shopping  shopping & search css */
+.header-middle-account ul{
+	float: right;
+}
+.header-middle-account ul li{
+	display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 13px;
+}
+.header-middle-account ul li:last-child{
+	padding: 0 0px;
+}
+.header-middle-account ul li a {
+    color: #d7537b;
+}
+.header-middle-account ul li a:hover{
+    color: #935569;
+}
+.header-middle-account-icon-account {
+    font-size: 20px;
+}
+.header-middle-account-icon-shopping{
+    font-size: 20px;
+}
+span.header-middle-account-icon-shopping {
+
+}
+
+
+
+/*
+==========================================
+    Header Bottom Css
+==========================================
+*/
+.header-bottom-area {
+    border-top: 1px solid #ddd;
+}
+.header-bottom-main-menu ul li {
+  display: inline-block;
+  margin-right: 45px;
+  position: relative;
+}
+.header-bottom-main-menu ul li a {
+  color: #222222;
+  display: block;
+  font-size: 14px;
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+.header-bottom-main-menu ul li:hover > a{color:#d7537b}
+
+/* mega menu */
+.header-bottom-main-menu ul li .header-bottom-mega-menu {
+    background: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 8px 15px;
+    position: absolute;
+    top: 110%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+.header-bottom-main-menu ul li:hover .header-bottom-mega-menu{opacity:1;visibility:visible;top:100%}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul {
+  float: left;
+  padding-right: 30px;
+  width: 33.33%;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul:last-child{padding-right:0}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li {
+  display: block;
+  margin: 0;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li a {
+  color:rgba(3, 2, 26, 0.5);
+  padding: 10px 0px 0px 0px;
+  text-transform: capitalize;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li a:hover {
+  color: #d7537b;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu ul li.header-bottom-mega-title a {
+    font-weight: 600;
+    color: #000;
+}
+.header-bottom-main-menu ul li.header-bottom-static{position:static;}
+.header-bottom-static{position:static;}
+.header-bottom-pos{position:relative;}
+
+.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full {
+    width: 100%;
+    z-index: 2;
+    border: 1px solid #dddddd;
+}
+.header-bottom-main-menu ul li .header-bottom-mega-menu.header-bottom-mega-full ul{width:16.66%}
+/*
+==========================================
+    Banner Or Slider Area Css
+==========================================
+*/
+i.fa-solid.fa-chevron-left.banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 45%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 56px;
+    border-radius: 100%;
+}
+i.fa-solid.fa-chevron-right.banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 45%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #000000;
+    line-height: 56px;
+}
+/*
+==========================================
+    Promotional Banner Area Css
+==========================================
+*/
+i.fa-solid.fa-chevron-left.promotional-banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 40%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 56px;
+    border-radius: 100%;
+}
+i.fa-solid.fa-chevron-right.promotional-banner-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 40%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #000000;
+    line-height: 56px;
+}
+/*
+==========================================
+    Top Brand Area Css
+==========================================
+*/
+.top-brand-body-content{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 280px;
+}
+.top-brand-text {
+	position: absolute;
+    border-radius: 3px;
+    background: rgba(255,255,255,1 );
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    max-width: 100%;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+    bottom: 0px;
+    text-transform: capitalize;
+    padding: 20px 5px;
+    height: 85px;
+}
+.top-brand-text-discount {
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 0 5px;
+    color: #d7537b;
+    font-size: 18px;
+    margin: 0 4px;
+}
+.top-brand-text-description {
+    font-size: 16px;
+    color: #3f4144;
+}
+/*
+==========================================
+    Promotional Banner Two Area Css
+==========================================
+*/
+i.fa-solid.fa-chevron-left.promotional-banner-two-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 25%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 56px;
+    border-radius: 100%;
+}
+i.fa-solid.fa-chevron-right.promotional-banner-two-icon {
+    transform: initial;
+    height: 56px;
+    width: 56px;
+    top: 25%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #000000;
+    line-height: 56px;
+}
+/*
+==========================================
+    Best sellers Area Css
+==========================================
+*/
+.single-best-sellers {
+    border: 1px solid #dddddd;
+}
+.best-seller-text {
+    padding: 10px 15px;
+}
+.best-seller-title span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    overflow: hidden;
+    display: block;
+    margin: 0px 0px 0.125rem;
+    color: rgb(0, 19, 37);
+    text-overflow: ellipsis;
+}
+.best-seller-kg span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: rgb(117, 117, 117);
+    margin: 0px 0px 0.25rem;
+    padding: 0px;
+    text-transform: capitalize;
+}
+.best-seller-rating span {
+    display: inline-block;
+    font-size: 12px;
+}
+span.best-seller-main-price {
+    color: rgb(0, 19, 37);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+span.best-seller-discount-price {
+    text-decoration-line: line-through;
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: rgba(0, 19, 37, 0.64);
+}
+
+
+
+
+/* best-sellers-active Carousel */
+
+.best-sellers-active .owl-nav div {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	font-weight: 400;
+	margin-left: -21px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.best-sellers-active .owl-nav div:hover {
+	background-color: #d7537b;
+	border-color: #d7537b;
+	color: #fff;
+}
+.best-sellers-active .owl-nav .owl-next {
+	right: 0;
+	margin-right: -21px;
+}
+/*
+==========================================
+    Featured Brands Area Css
+==========================================
+*/
+.single-featured-brands {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    /* border-radius: 3px; */
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 22%);
+    display: block;
+    background: white;
+}
+.single-featured-brands:hover{
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
+}
+.single-featured-brands-image img {
+    width: 100%;
+    height: 270px;
+}
+.single-featured-brands-text {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    border-radius: 0px 0px 3px 3px;
+    background: #ffffff;
+    overflow-wrap: break-word;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.single-featured-brands-text-discount span {
+    font-size: 16px;
+    display: inline-block;
+    color: #d7537b;
+}
+.single-featured-brands-text-description span {
+    color: rgb(63, 65, 77);
+}
+/*
+==========================================
+    Sponsor Logo Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Footer Area Css
+==========================================
+*/
+.footer-bg{
+	background-color: #d7537b;
+}
+
+
+/* footer top */
+
+.footer-top {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.footer-title h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.footer-title {
+	margin-bottom: 30px;
+}
+
+.footer-list ul li {
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.footer-list ul li a{
+	display: block;
+	color: #ffffff;
+}
+.footer-list ul li a:hover{
+	color: #000000;
+}
+.list-icon {
+	color: #ffffff;
+	font-size: 22px;
+	width: 45px;
+	display: inline-block;
+}
+
+/* footer middle */
+
+.footer-middle {
+	position: relative;
+	min-height: 130px;
+	margin-bottom: 30px;
+}
+.footer-middle-overlay::before {
+	position: absolute;
+	content: '';
+	background-color: #890e33;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .3;
+}
+.footer-social-title {
+	float: left;
+	margin-right: 15px;
+}
+.footer-social-title h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	line-height: 44px;
+	margin: 0;
+}
+.footer-social ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.footer-social ul li:last-child{
+	margin: 0px;
+}
+.footer-social ul li a {
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 41px;
+	font-size: 18px;
+	color: #484848;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+}
+.footer-social ul li a:hover{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #ffffff;
+}
+.newsletter {
+	float: right;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.footer-subscribe input {
+	border: none;
+	padding: 10px 20px;
+	width: 250px;
+	float: left;
+}
+.footer-subscribe a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #890e33;
+	padding: 13px 20px;
+	line-height: 44px;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+	min-height: 50px;
+}
+.footer-copy p {
+    margin: 0px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.payment-cart ul {
+    text-align: right;
+}
+.payment-cart ul li {
+    display: inline-block;
+}
+.payment-cart ul li a img {
+    width: 50px;
+    height: 33px;
+}
+/*
+==========================================
+    User Profile Area Css
+==========================================
+*/
+img.profile-image {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+}
+.profile-img {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+/*
+==========================================
+    Area Css
+==========================================
+*/
+
+
+
+
+
+
+
+
+
+
+

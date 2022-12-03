@@ -1,0 +1,142 @@
+
+.require_star {
+    color: red;
+}
+.btn.btn-info.registration-btn {
+	padding: 13px 50px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.has-error .col-form-label{
+	color: red;
+}
+
+.has-error .form-control{
+	border: 1px solid red;
+}
+
+.has-error .invalid-feedback{
+	display: block;
+	margin-left: 10px;
+}
+
+
+.card-header {
+    background: #2a3042;
+}
+
+h4.user-registration {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    line-height: 42px;
+}
+
+a.all_link {
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    background: #495057;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.view-icon {
+    background: #28A5B3;
+    font-size: 16px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    line-height: 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+.view-icon:hover{
+    color: #495057;
+}
+.edit-icon {
+    background: #34c38f;
+    font-size: 16px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    line-height: 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+.edit-icon:hover{
+    color: #495057;
+}
+.delete-icon {
+    background: #f46a6a;
+    font-size: 16px;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    line-height: 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+.delete-icon:hover{
+    color: #495057;
+}
+.page-item.active .page-link {
+    background-color: #2a3042;
+    border-color: #2a3042;
+}
+.product-variations-from {
+    box-shadow: 0 0 15px rgb(0 0 0 / 12%);
+    padding: 0px 20px 20px 20px;
+}
+.product-variations-title span {
+    font-size: 18px;
+    color: #4a4848;
+    font-weight: 600;
+    padding: 15px 0px;
+    display: block;
+}
+.product-variant-area {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+
+/* ==================== Responsive Css ==================== */
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+}
