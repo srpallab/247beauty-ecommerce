@@ -181,9 +181,6 @@
 								:slidesPerGroup="1"
 								:loop="true"
 								:loopFillGroupWithBlank="true"
-								:pagination="{
-									clickable: true,
-								}"
 								:navigation="true"
 								:modules="modules"
 								class="mySwiper"

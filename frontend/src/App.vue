@@ -45,7 +45,7 @@
 						<div class="row">
 							<div class="col-xl-2 col-lg-2">
 								<div class="header-middle-logo">
-									<a href="index.html"><img src="./assets/images/logo/logo.png" alt=""></a>
+									<router-link to="/"><img src="./assets/images/logo/logo.png" alt=""></router-link>
 								</div>
 							</div>
 							<div class="col-xl-5 col-lg-5 d-flex align-items-center">
@@ -53,7 +53,7 @@
 									<div class="header-middle-main-menu">
 										<nav>
 											<ul>
-												<li><a href="#">Categories</a></li>
+												<li><router-link to="/product">Categories</router-link></li>
 												<li class="header-middle-static"><a href="#">Brand</a>
 													<div class="header-middle-mega-menu header-middle-mega-full">
 														<ul>
@@ -153,48 +153,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -202,48 +202,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -251,48 +251,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -300,48 +300,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -349,48 +349,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -398,48 +398,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -447,48 +447,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -496,48 +496,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>
@@ -545,48 +545,48 @@
 												<div class="header-bottom-mega-menu header-bottom-mega-full">
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Face</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Eyes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Lips</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Tools &
 																Brushes</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Top Brands</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 													<ul>
 														<li class="header-bottom-mega-title"><a href="#">Quick Links</a>
 														</li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
-														<li><a href="#">Full width</a></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
+														<li><router-link to="/product-details">Full width</router-link></li>
 													</ul>
 												</div>
 											</li>

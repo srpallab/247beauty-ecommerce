@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "swiper": "^8.4.5",
+    "v-viewer": "^3.0.11",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6"
   },
