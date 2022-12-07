@@ -1,19 +1,83 @@
-<script setup>
-	import { ref } from "vue";
+<script>
+	// import { ref, reactive,inject, onMounted } from "vue";
 
-	// Import Swiper Vue.js components
-	import { Swiper, SwiperSlide } from "swiper/vue";
+	// // Import Swiper Vue.js components
+	// import { Swiper, SwiperSlide } from "swiper/vue";
 
-	// Import Swiper styles
-	import "swiper/css";
+	// // Import Swiper styles
+	// import "swiper/css";
 
-	import "swiper/css/pagination";
-	import "swiper/css/navigation";
-	
-	// import required modules
-	import { Pagination, Autoplay, Navigation } from "swiper";
+	// import "swiper/css/pagination";
+	// import "swiper/css/navigation";
 
-	const modules = ref([Pagination, Autoplay, Navigation]);
+	// // import required modules
+	// import { Pagination, Autoplay, Navigation } from "swiper";
+
+	import 'vue3-carousel/dist/carousel.css';
+	import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
+
+	import axios from 'axios';
+
+
+
+	export default {
+		name: 'Index',
+		components: {
+			Carousel,
+			Slide,
+			Pagination,
+			Navigation,
+		},
+		data(){
+			return{
+				CategoryList:[],
+				BrandList:[],
+				ProductList: [],
+			}
+		},
+
+		created(){
+			alert('ookk');
+			// getCategoryList();
+			// getBrandList();
+			// getProductList();
+			console.log(axios.isCancel('something'));
+
+		},
+
+		methode(){
+
+
+			getCategoryList(){
+
+				axios
+			.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+			.then(response => (this.info = response))
+			},
+
+
+
+			//  getCategoryList() {
+			// 	// this.loading = true;
+			// 	axios.get("http://localhost:8000/api/get-categories").then((response) => {
+			// 		// this.loading = false;
+			// 		// this.CategoryList = response.data.data;
+			// 		console.log(response);
+			// 	});
+			// },
+
+
+
+
+			// getBrandList(){
+
+			// },
+
+			// getProductList(){
+
+			// },
+		},
+	}
 
 </script>
 
@@ -22,7 +86,7 @@
 		<!-- ================= Banner Area Start ================ -->
 		<section>
 			<div class="banner-area">
-				<swiper
+				<!-- <swiper
 					:spaceBetween="30"
 					:pagination="{
 						clickable: true,
@@ -38,7 +102,23 @@
 					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/1.avif" alt=""></a></swiper-slide>
 					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/2.avif" alt=""></a></swiper-slide>
 					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/3.avif" alt=""></a></swiper-slide>
-				</swiper>
+				</swiper> -->
+
+
+
+				<carousel :items-to-show="1">
+					<slide v-for="slide in 5" :key="slide">
+					<a href="#"><img class="slider-image" src="src/assets/images/banner/1.avif" alt=""></a>
+					<!-- <a href="#"><img class="slider-image" src="src/assets/images/banner/2.avif" alt=""></a>
+					<a href="#"><img class="slider-image" src="src/assets/images/banner/3.avif" alt=""></a> -->
+					</slide>
+
+					<template #addons>
+					<navigation />
+					<pagination />
+					</template>
+				</carousel>
+
 			</div>
 		</section>
 		<!-- ================= Banner Area End ================ -->
@@ -49,10 +129,22 @@
 				<div class="row">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner">
-							<swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
+							<!-- <swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
 								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/1.avif" alt=""></a></swiper-slide>
 								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/2.avif" alt=""></a></swiper-slide>
-							</swiper>
+							</swiper> -->
+
+
+							<carousel :items-to-show="1">
+								<slide v-for="slide in 5" :key="slide">
+								<a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/1.avif" alt=""></a>
+								</slide>
+
+								<template #addons>
+								<navigation />
+								<pagination />
+								</template>
+							</carousel>
 						</div>
 					</div>
 				</div>
@@ -146,10 +238,22 @@
 				<div class="row">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner-two">
-							<swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
+							<!-- <swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
 								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/3.avif" alt=""></a></swiper-slide>
 								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/4.avif" alt=""></a></swiper-slide>
-							</swiper>
+							</swiper> -->
+
+
+							<carousel :items-to-show="1">
+								<slide v-for="slide in 5" :key="slide">
+								<a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/3.avif" alt=""></a>
+								</slide>
+
+								<template #addons>
+								<navigation />
+								<pagination />
+								</template>
+							</carousel>
 						</div>
 					</div>
 				</div>
@@ -175,7 +279,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12">
-							<swiper
+							<!-- <swiper
 								:slidesPerView="4"
 								:spaceBetween="30"
 								:slidesPerGroup="1"
@@ -301,7 +405,48 @@
 										</div>
 									</div>
 								</swiper-slide>
-							</swiper>
+							</swiper> -->
+
+
+
+											<carousel :items-to-show="4">
+												<slide v-for="slide in 15" :key="slide">
+												<div class="single-best-sellers">
+														<div class="best-seller-content">
+															<div class="best-seller-image">
+																<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+															</div>
+															<div class="best-seller-text">
+																<div class="best-seller-title">
+																	<span>Lakme Lumi Skin Cream</span>
+																</div>
+																<div class="best-seller-kg">
+																	<span>30gm</span>
+																</div>
+																<div class="best-seller-rating">
+																	<span><i class="fa-solid fa-star"></i></span>
+																	<span><i class="fa-solid fa-star"></i></span>
+																	<span><i class="fa-solid fa-star"></i></span>
+																	<span><i class="fa-solid fa-star"></i></span>
+																	<span><i class="fa-solid fa-star"></i></span>
+																	<span>(50)</span>
+																</div>
+																<div class="best-seller-price">
+																	<span class="best-seller-main-price">$500</span>
+																	<span class="best-seller-discount-price">$700</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</slide>
+
+								<template #addons>
+								<navigation />
+								<pagination />
+								</template>
+							</carousel>
+
+
 						</div>
 					</div>
 				</div>
@@ -473,7 +618,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-12 col-lg-12 col-md-12">
-							<swiper
+							<!-- <swiper
 								:slidesPerView="6"
 								:spaceBetween="30"
 								:slidesPerGroup="1"
@@ -513,7 +658,23 @@
 										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</swiper-slide>
-							</swiper>
+							</swiper> -->
+
+
+
+
+							<carousel :items-to-show="7">
+								<slide v-for="slide in 15" :key="slide">
+									<div class="single-sponsor-logo">
+										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+									</div>
+								</slide>
+
+								<template #addons>
+								<navigation />
+								<pagination />
+								</template>
+							</carousel>
 						</div>
 					</div>
 				</div>
