@@ -5,13 +5,14 @@ import './style.css';
 import router from "./router";
 import App from './App.vue';
 
-import axios from 'axios';
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
-// console.log(axios.isCancel('something'));
+
 
 
 const app = createApp(App);
 app.use(router);
-app.provide('axios', app.config.globalProperties.axios);  // provide 'axios'
+app.use(VueAxios, axios)
 app.mount('#app');
 

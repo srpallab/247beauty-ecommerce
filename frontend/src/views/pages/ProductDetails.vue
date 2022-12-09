@@ -26,22 +26,22 @@
                 <div class="row">
                     <div class="col-xl-4">
                         <div class="owl-carousel product-details-active">
-                            <div data-dot="<img src='assets/images/best-seller/3.avif'>" class="single-product-details">
+                            <div data-dot="<img src='/assets/images/best-seller/3.avif'>" class="single-product-details">
                                 <div class="product-details-head">
                                     <img src="assets/images/best-seller/3.avif" alt="">
                                 </div>
                             </div>
-                            <div data-dot="<img src='assets/images/best-seller/4.avif'>" class="single-product-details">
+                            <div data-dot="<img src='/assets/images/best-seller/4.avif'>" class="single-product-details">
                                 <div class="product-details-head">
                                     <img src="assets/images/best-seller/4.avif" alt="">
                                 </div>
                             </div>
-                            <div data-dot="<img src='assets/images/best-seller/5.avif'>" class="single-product-details">
+                            <div data-dot="<img src='/assets/images/best-seller/5.avif'>" class="single-product-details">
                                 <div class="product-details-head">
                                     <img src="assets/images/best-seller/5.avif" alt="">
                                 </div>
                             </div>
-                            <div data-dot="<img src='assets/images/best-seller/6.avif'>" class="single-product-details">
+                            <div data-dot="<img src='/assets/images/best-seller/6.avif'>" class="single-product-details">
                                 <div class="product-details-head">
                                     <img src="assets/images/best-seller/6.avif" alt="">
                                 </div>
@@ -286,7 +286,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -315,7 +315,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -344,7 +344,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -373,7 +373,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -423,32 +423,32 @@
 						>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 								</div>
 							</swiper-slide>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
 								</div>
 							</swiper-slide>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
 								</div>
 							</swiper-slide>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
 								</div>
 							</swiper-slide>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
 								</div>
 							</swiper-slide>
 							<swiper-slide>
 								<div class="single-sponsor-logo">
-									<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+									<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 								</div>
 							</swiper-slide>
 						</swiper>

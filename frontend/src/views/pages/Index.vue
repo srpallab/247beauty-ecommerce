@@ -19,7 +19,6 @@
 	import axios from 'axios';
 
 
-
 	export default {
 		name: 'Index',
 		components: {
@@ -30,52 +29,34 @@
 		},
 		data(){
 			return{
-				CategoryList:[],
-				BrandList:[],
-				ProductList: [],
+				// CategoryList:[],
+				// BrandList:[],
+				// ProductList: [],
 			}
 		},
 
 		created(){
 			alert('ookk');
-			// getCategoryList();
-			// getBrandList();
-			// getProductList();
-			console.log(axios.isCancel('something'));
+			// testMethod();
 
 		},
 
 		methode(){
+			// test(){
+				// this.axios.get(api).then((response) => {
+				// 	console.log(response.data)
+				// })
+			// }
 
-
-			getCategoryList(){
-
-				axios
-			.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-			.then(response => (this.info = response))
-			},
-
-
-
-			//  getCategoryList() {
-			// 	// this.loading = true;
-			// 	axios.get("http://localhost:8000/api/get-categories").then((response) => {
-			// 		// this.loading = false;
-			// 		// this.CategoryList = response.data.data;
-			// 		console.log(response);
+			// testMethod = () =>{
+			// 	this.axios.post('https://jsonplaceholder.typicode.com/posts')
+			// 	.then(function (response) {
+			// 		alert ('okk');
+			// 	})
+			// 	.catch(function (error) {
+			// 		alert(nnoo);
 			// 	});
-			// },
-
-
-
-
-			// getBrandList(){
-
-			// },
-
-			// getProductList(){
-
-			// },
+			// }
 		},
 	}
 
