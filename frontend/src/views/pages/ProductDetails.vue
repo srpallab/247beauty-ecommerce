@@ -33,17 +33,17 @@
                             </div>
                             <div data-dot="<img src='/src/assets/images/best-seller/4.avif'>" class="single-product-details">
                                 <div class="product-details-head">
-                                    <img src="assets/images/best-seller/4.avif" alt="">
+                                    <img src="/src/assets/images/best-seller/4.avif" alt="">
                                 </div>
                             </div>
                             <div data-dot="<img src='/src/assets/images/best-seller/5.avif'>" class="single-product-details">
                                 <div class="product-details-head">
-                                    <img src="assets/images/best-seller/5.avif" alt="">
+                                    <img src="/src/assets/images/best-seller/5.avif" alt="">
                                 </div>
                             </div>
                             <div data-dot="<img src='/src/assets/images/best-seller/6.avif'>" class="single-product-details">
                                 <div class="product-details-head">
-                                    <img src="assets/images/best-seller/6.avif" alt="">
+                                    <img src="/src/assets/images/best-seller/6.avif" alt="">
                                 </div>
                             </div>
                         </div>
