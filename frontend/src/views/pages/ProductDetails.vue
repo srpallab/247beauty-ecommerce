@@ -28,7 +28,7 @@
                         <div class="owl-carousel product-details-active">
                             <div data-dot="<img src='/src/assets/images/best-seller/3.avif'>" class="single-product-details">
                                 <div class="product-details-head">
-                                    <img src="assets/images/best-seller/3.avif" alt="">
+                                    <img src="/src/assets/images/best-seller/3.avif" alt="">
                                 </div>
                             </div>
                             <div data-dot="<img src='/src/assets/images/best-seller/4.avif'>" class="single-product-details">
