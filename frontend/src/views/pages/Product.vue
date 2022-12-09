@@ -100,7 +100,7 @@
                                                     <span>40%</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/1.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/1.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -130,7 +130,7 @@
                                                     <span>NEW</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/2.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/2.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -160,7 +160,7 @@
                                                     <span>40%</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/3.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/3.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -190,7 +190,7 @@
                                                     <span>NEW</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/4.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/4.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -220,7 +220,7 @@
                                                     <span>40%</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/5.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/5.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -250,7 +250,7 @@
                                                     <span>40%</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/6.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/6.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -280,7 +280,7 @@
                                                     <span>40%</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/7.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/7.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -310,7 +310,7 @@
                                                     <span>NEW</span>
                                                 </div>
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/8.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/8.avif" alt="">
                                                 </div>
                                                 <div class="shop-content text-center">
                                                     <div class="shop-name">
@@ -341,7 +341,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/9.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/9.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -376,7 +376,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/1.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/1.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -411,7 +411,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/2.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/2.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -446,7 +446,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/3.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/3.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -481,7 +481,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/4.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/4.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -516,7 +516,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/5.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/5.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -551,7 +551,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/6.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/6.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -586,7 +586,7 @@
                                         <div class="col-sm-3 mb-4">
                                             <div class="single-shop-product">
                                                 <div class="shop-image">
-                                                    <img src="src/assets/images/best-seller/7.avif" alt="">
+                                                    <img src="/src/assets/images/best-seller/7.avif" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -647,32 +647,32 @@
 							>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</swiper-slide>
 							</swiper>

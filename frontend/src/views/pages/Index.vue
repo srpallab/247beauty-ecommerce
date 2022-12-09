@@ -80,18 +80,18 @@
 					:modules="modules"
 					class="mySwiper"
 				>
-					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/1.avif" alt=""></a></swiper-slide>
-					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/2.avif" alt=""></a></swiper-slide>
-					<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/banner/3.avif" alt=""></a></swiper-slide>
+					<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/banner/1.avif" alt=""></a></swiper-slide>
+					<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/banner/2.avif" alt=""></a></swiper-slide>
+					<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/banner/3.avif" alt=""></a></swiper-slide>
 				</swiper> -->
 
 
 
 				<carousel :items-to-show="1">
 					<slide v-for="slide in 5" :key="slide">
-					<a href="#"><img class="slider-image" src="src/assets/images/banner/1.avif" alt=""></a>
-					<!-- <a href="#"><img class="slider-image" src="src/assets/images/banner/2.avif" alt=""></a>
-					<a href="#"><img class="slider-image" src="src/assets/images/banner/3.avif" alt=""></a> -->
+					<a href="#"><img class="slider-image" src="/src/assets/images/banner/1.avif" alt=""></a>
+					<!-- <a href="#"><img class="slider-image" src="/src/assets/images/banner/2.avif" alt=""></a>
+					<a href="#"><img class="slider-image" src="/src/assets/images/banner/3.avif" alt=""></a> -->
 					</slide>
 
 					<template #addons>
@@ -111,14 +111,14 @@
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner">
 							<!-- <swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
-								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/1.avif" alt=""></a></swiper-slide>
-								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/2.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/1.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/2.avif" alt=""></a></swiper-slide>
 							</swiper> -->
 
 
 							<carousel :items-to-show="1">
 								<slide v-for="slide in 5" :key="slide">
-								<a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/1.avif" alt=""></a>
+								<a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/1.avif" alt=""></a>
 								</slide>
 
 								<template #addons>
@@ -150,7 +150,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/1.avif')">
+									style="background-image: url('/src/assets/images/top-brand/1.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -165,7 +165,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/2.avif')">
+									style="background-image: url('/src/assets/images/top-brand/2.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -180,7 +180,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/3.avif')">
+									style="background-image: url('/src/assets/images/top-brand/3.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -195,7 +195,7 @@
 						<div class="col-xl-6 col-lg-6 mb-4">
 							<a href="#">
 								<div class="top-brand-body-content"
-									style="background-image: url('src/assets/images/top-brand/4.avif')">
+									style="background-image: url('/src/assets/images/top-brand/4.avif')">
 									<div class="top-brand-text">
 										<div class="top-brand-text-discount">
 											<span>Upto 35% Off</span>
@@ -220,14 +220,14 @@
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div class="promotional-banner-two">
 							<!-- <swiper :rewind="true" :navigation="true" :modules="modules" class="mySwiper">
-								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/3.avif" alt=""></a></swiper-slide>
-								<swiper-slide><a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/4.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/3.avif" alt=""></a></swiper-slide>
+								<swiper-slide><a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/4.avif" alt=""></a></swiper-slide>
 							</swiper> -->
 
 
 							<carousel :items-to-show="1">
 								<slide v-for="slide in 5" :key="slide">
-								<a href="#"><img class="slider-image" src="src/assets/images/promotional-banner/3.avif" alt=""></a>
+								<a href="#"><img class="slider-image" src="/src/assets/images/promotional-banner/3.avif" alt=""></a>
 								</slide>
 
 								<template #addons>
@@ -274,7 +274,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -303,7 +303,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -332,7 +332,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -361,7 +361,7 @@
 									<div class="single-best-sellers">
 										<div class="best-seller-content">
 											<div class="best-seller-image">
-												<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+												<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 											</div>
 											<div class="best-seller-text">
 												<div class="best-seller-title">
@@ -395,7 +395,7 @@
 												<div class="single-best-sellers">
 														<div class="best-seller-content">
 															<div class="best-seller-image">
-																<img class="" src="src/assets/images/best-seller/1.avif" alt="">
+																<img class="" src="/src/assets/images/best-seller/1.avif" alt="">
 															</div>
 															<div class="best-seller-text">
 																<div class="best-seller-title">
@@ -455,7 +455,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/1.avif" alt="">
+										<img src="/src/assets/images/featured-brands/1.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -472,7 +472,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/2.avif" alt="">
+										<img src="/src/assets/images/featured-brands/2.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -489,7 +489,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/3.avif" alt="">
+										<img src="/src/assets/images/featured-brands/3.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -506,7 +506,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/4.avif" alt="">
+										<img src="/src/assets/images/featured-brands/4.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -523,7 +523,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/5.avif" alt="">
+										<img src="/src/assets/images/featured-brands/5.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -540,7 +540,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/6.avif" alt="">
+										<img src="/src/assets/images/featured-brands/6.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -557,7 +557,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/7.avif" alt="">
+										<img src="/src/assets/images/featured-brands/7.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -574,7 +574,7 @@
 							<div class="single-featured-brands">
 								<a href="#">
 									<div class="single-featured-brands-image">
-										<img src="src/assets/images/featured-brands/8.avif" alt="">
+										<img src="/src/assets/images/featured-brands/8.avif" alt="">
 									</div>
 									<div class="single-featured-brands-text">
 										<div class="single-featured-brands-text-discount">
@@ -611,32 +611,32 @@
 							>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-2.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-3.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-4.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-5.jpg" alt="">
 									</div>
 								</swiper-slide>
 								<swiper-slide>
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</swiper-slide>
 							</swiper> -->
@@ -647,7 +647,7 @@
 							<carousel :items-to-show="7">
 								<slide v-for="slide in 15" :key="slide">
 									<div class="single-sponsor-logo">
-										<img src="src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
+										<img src="/src/assets/images/sponsor-logo/sponsor-1.jpg" alt="">
 									</div>
 								</slide>
 
